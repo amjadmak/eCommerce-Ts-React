@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.css-o69gx8-MuiCardMedia-root{
+  object-fit: contain !important;
+} 
+.css-1pqm26d-MuiAvatar-img {
+  object-fit: contain !important;
+  padding:'2%';
+}
+.img{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+}
+
+.checkout {
+align-self: center;
+justify-items: center;
+text-align: center;
+}
+
+
+.css-1h0b4bo-MuiSvgIcon-root{
+  fill:#ffff !important
+}
+.bigfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+.footer{
+  color:white;
+  width: 100%;
+  text-align: center;
+  padding:0.5%;
+
+
+}
+.bigfooter{
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.Home > *{
+  margin : "10px";
+  padding: "10px"
+
+}
+
+
+.Home > h3{
+  font-family: 'Brush Script MT';
+  font-size: 30px;
+
+}
+.icon{
+padding-top: 0.5%;
+justify-content: center;
+color: #ffff !important;
+}
+
+.css-16lloyr-MuiBottomNavigation-root {
+height: auto !important;
+
+  
+}
+
+.listofdisplay{
+  align-self: center  !important;
+
+  }
+
+  button:hover {
+    background-color:#63b8c9!important;
+}
+.catogries:hover {
+  background-color:#63b8c9!important;
+}
+
+.onePageAddtoCart{
+
+display:flex;
+align-items: center;
+flex-direction: column-reverse;
+
+}
+
+.onePageText{
+padding: 2%;
+  text-align: center;
+  
+}
+.Home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    background-image: url("/public/home.png");
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : white;
+}
+#addedPopup{
+text-align: center;
+background-color: #52fa7a;
+padding: 2%;
+border-radius: 10px;
+animation-name: popup;
+animation-duration: 1s;
+
+}
+
+.About{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+    background-image: url("/public/about.png");
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : white;
+}
+.heading{
+  height: 20%;
+}
+.Home .content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+  h1{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 50px;
+  }
+  h4{
+    font-family: 'Comfortaa', cursive;
+  }
+  p{
+    font-family: 'Courgette', cursive
+  }
+
+
+.hero1{
+ width: 50%;
+
+}
+.hero1 .ul .li{
+  font-size: 50px;
+ 
+ }
+.hero2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+ }
+ .css-de1c49 {
+  height: auto !important; 
+  }
+  html, body {
+    height: 100%; /* necessary */
+    }
+ @keyframes popup {
+  0%   {opacity: 0;}
+  25% {opacity: .3;}
+  50% {opacity: .5;}
+  100% {opacity: 1;}
+}
+@media only screen and (max-width: 768px){
+ .Home .content{
+    flex-direction: column;
+    margin: 2px;
+    padding: 5px;
+    
+  }
+}
+  
